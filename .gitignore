@@ -1,0 +1,95 @@
+# Entornos Virtuales (Virtual Environments)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+lib/
+include/
+
+# Archivos Compilados y Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Datos Sensibles, Secretos y Configuración
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+secrets.json
+credentials.json
+auth.json
+token.json
+tokens.json
+*secret*
+*password*
+*api_key*
+*private*
+
+# Archivos Temporales y Logs
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.cache/
+
+# Archivos del Sistema Operativo
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Editores de Código e IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Jupyter Notebook y Testing
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
